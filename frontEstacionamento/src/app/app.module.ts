@@ -1,12 +1,12 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { CommonModule } from '@angular/common';
-import { HttpClientModule } from '@angular/common/http'; 
+import { HttpClientModule } from '@angular/common/http';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { ReactiveFormsModule } from '@angular/forms';
 import { ModalModule} from 'ngx-bootstrap/modal';
-import { BrowserAnimationsModule } from '@angular/platform-browser/animations'; 
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { FormsModule } from '@angular/forms';
 
 
@@ -35,7 +35,8 @@ import { TicketsFindallComponent } from './components/tickets.findall/tickets.fi
 import { PagarTicketComponent } from './components/pagar.ticket/pagar.ticket.component';
 import { TicketEditComponent } from './components/ticket.edit/ticket.edit.component';
 import { ServicosPagarComponent } from './components/servicos.pagar/servicos.pagar.component';
-
+import { FooterComponent } from './pages/footer/footer.component';
+import { NavbarComponent } from './pages/navbar/navbar.component';
 
 
 
@@ -57,7 +58,9 @@ import { ServicosPagarComponent } from './components/servicos.pagar/servicos.pag
     TicketsFindallComponent,
     PagarTicketComponent,
     TicketEditComponent,
-    ServicosPagarComponent
+    ServicosPagarComponent,
+    FooterComponent,
+    NavbarComponent
 
   ],
   imports: [
@@ -69,11 +72,11 @@ import { ServicosPagarComponent } from './components/servicos.pagar/servicos.pag
     ModalModule.forRoot(),
     BrowserAnimationsModule,
     FormsModule
-  
+
   ],
   providers: [
-    
-    HttpClientModule, 
+
+    HttpClientModule,
     VeiculosService,
     ClientesService,
     MarcasService,
@@ -82,10 +85,10 @@ import { ServicosPagarComponent } from './components/servicos.pagar/servicos.pag
     TicketsService,
     ServicosService,
     NotaFiscalService
-    
+
   ],
   bootstrap: [AppComponent]
-  
+
 })
 export class AppModule { }
 platformBrowserDynamic().bootstrapModule(AppModule);

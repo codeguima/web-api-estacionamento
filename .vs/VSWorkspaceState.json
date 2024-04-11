@@ -1,14 +1,10 @@
 {
   "ExpandedNodes": [
     "",
-    "\\frontEstacionamento",
     "\\frontEstacionamento\\src",
     "\\frontEstacionamento\\src\\app",
-    "\\frontEstacionamento\\src\\app\\components",
-    "\\frontEstacionamento\\src\\app\\components\\clientes",
-    "\\frontEstacionamento\\src\\app\\components\\marcas",
-    "\\frontEstacionamento\\src\\app\\components\\modelos",
-    "\\frontEstacionamento\\src\\app\\components\\veiculos"
+    "\\frontEstacionamento\\src\\app\\components"
   ],
+  "SelectedNode": "\\frontEstacionamento",
   "PreviewInSolutionExplorer": false
 }

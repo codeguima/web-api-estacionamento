@@ -16,9 +16,11 @@ import { TicketsFindallComponent } from './components/tickets.findall/tickets.fi
 import { PagarTicketComponent } from './components/pagar.ticket/pagar.ticket.component';
 import { TicketEditComponent } from './components/ticket.edit/ticket.edit.component';
 import { ServicosPagarComponent } from './components/servicos.pagar/servicos.pagar.component';
+import { FooterComponent } from './pages/footer/footer.component';
+import { NavbarComponent } from './pages/navbar/navbar.component';
 
 const routes: Routes = [
-  
+
   {path: 'veiculo', component: VeiculosComponent},
   {path: 'cliente', component: ClientesComponent},
   {path: 'marcas', component: MarcasComponent},
@@ -34,7 +36,9 @@ const routes: Routes = [
   {path:'ticketsfindall', component: TicketsFindallComponent},
   {path: 'pagarticket', component:PagarTicketComponent},
   {path: 'ticketedit', component: TicketEditComponent},
-  {path: 'servicospagar', component: ServicosPagarComponent}
+  {path: 'servicospagar', component: ServicosPagarComponent},
+  {path: 'navbar', component: NavbarComponent},
+  {path: 'footer', component: FooterComponent}
 ]
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
