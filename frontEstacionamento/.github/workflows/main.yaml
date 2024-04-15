@@ -1,0 +1,35 @@
+name: Angular CI
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  build:
+
+    runs-on: windows-latest
+
+    steps:
+    - uses: actions/checkout@v2
+
+    - name: Setup Node.js
+      uses: actions/setup-node@v2
+      with:
+        node-version: '14' # ou '16', dependendo da versão que você está usando
+        architecture: 'x64' # ou 'x86', dependendo da arquitetura que você precisa
+
+    - name: Install dependencies
+      run: npm install
+
+    - name: Build Angular app
+      run: npm run build
+
+    - name: Run tests
+      run: npm test
+
+    - name: Start Angular server
+      run: ng serve --port 4200 --disable-host-check
