@@ -1,1 +1,1 @@
-Web Api NET.Framework, Angular Cli, Bootstrap, SQlite, Arquitetura MVC completa de um app de totem para estacionamento com serviços adicionais para veiculos.
+Web Api NET.Framework, Angular Cli, Bootstrap, SQlite, Arquitetura MVC completa de um app de totem para estacionamento com serviços adicionais para veiculos. Para cada estrutura há um Readme interno explicando mais detalhes.
