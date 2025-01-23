@@ -1,31 +1,34 @@
-# Sistema de Compra e Venda
+# 🅿️ Frontend do Totem de Estacionamento  
 
-Este projeto consiste no desenvolvimento de um sistema de compra e venda baseado em **JavaScript/Node.js**, projetado para atender pequenas e médias empresas, oferecendo funcionalidades robustas e eficientes para operações comerciais, arquitetura similar ao SAP.
+Este é o frontend de um sistema de totem de estacionamento desenvolvido com **Angular CLI**, **Bootstrap** e **TypeScript**. O objetivo é fornecer uma interface de usuário intuitiva e responsiva para gerenciar operações como entrada e saída de veículos, consulta de tickets, emissão de notas fiscais e seleção de serviços adicionais.  
 
-## 📋 Funcionalidades
+---
 
-- **Controle de Transações**: Gerenciamento de operações de compra e venda.
-- **Gestão Financeira**: Controle de contas a pagar e a receber.
-- **Validações Automáticas**: Garantia da integridade das transações.
-- **Segurança Avançada**:
-  - Autenticação JWT.
-  - Criptografia de senhas com **Bcrypt**.
+## 📋 Funcionalidades  
 
-## 🛠️ Tecnologias Utilizadas
+- **Interface Responsiva**: Layout adaptável para diferentes tamanhos de tela utilizando Bootstrap.  
+- **Gerenciamento de Veículos**: Cadastro e consulta de veículos, incluindo marca e modelo.  
+- **Controle de Tickets**: Emissão e finalização de tickets diretamente no totem.  
+- **Seleção de Serviços**: Escolha de serviços adicionais, como estética automotiva, com visualização de preços.  
+- **Consulta de Períodos**: Exibição de informações sobre o tempo de permanência no estacionamento e valores calculados.  
+- **Emissão de Notas Fiscais**: Interface para gerar e consultar notas fiscais.  
 
-- **Backend**: Node.js
-- **Banco de Dados**: MySQL
-- **ORM**: Sequelize
-- **Autenticação**: JWT
-- **Segurança**: Bcrypt para criptografia de senhas
+---
 
-## 🏷️ Entidades Representadas
+## 🛠️ Tecnologias Utilizadas  
 
-- **Nota Fiscal**: Registra a transação de compra ou venda, incluindo informações sobre o valor e os itens envolvidos.
-- **Serviços**: Representa os serviços oferecidos no sistema, como manutenção, suporte ou outros serviços relacionados às transações.
-- **Cliente**: Contém informações sobre os clientes, como nome, endereço e detalhes de contato.
-- **Ticket**: Registra o processo de compra e venda, incluindo detalhes como número de transação e status.
-- **Veículo**: Representa os veículos relacionados às transações, incluindo informações como marca, modelo e ano.
-- **Marca**: Representa a marca de um veículo ou produto.
-- **Modelo**: Representa o modelo de um veículo ou produto.
-- **Período
+- **Framework**: Angular CLI  
+- **Linguagem**: TypeScript  
+- **Estilização**: Bootstrap  
+- **Comunicação com Backend**: HTTPClient para consumo de APIs RESTful.  
+
+---
+
+## 🚀 Como Executar  
+
+### Pré-requisitos  
+
+- Node.js (versão 16 ou superior)  
+- Angular CLI instalado globalmente:  
+  ```bash
+  npm install -g @angular/cli
