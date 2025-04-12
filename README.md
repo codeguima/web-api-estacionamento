@@ -2,4 +2,4 @@
 
 
 ### BackEnd -> aspnetcore-6.0-sqlite
-### Frontend -> Angular Cli, Bootstrap
+### Frontend -> Angular Cli, Bootstrap, typescript
